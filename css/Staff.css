@@ -1,0 +1,59 @@
+section{
+	min-height: max-content;
+	width: 100%;
+}
+
+.logo{
+    width:60px;
+	height:90px;
+    float:left;
+	margin-left:30px;
+	margin-top:10px;
+}
+		
+.sub-head1{
+	background-color:maroon;
+	height:100px;
+	padding:.6ex;  
+}
+		
+.sub-head1-1{
+    color:white;		
+    font-size:16pt;
+	padding:1ex;
+		  
+}
+		
+	
+
+.main-head{
+	margin-top: 95px;
+	background:url("../images/cover.png"), no-repeat;
+    color:white;
+	text-shadow:2px 2px 5px black;  
+	text-align:center;
+	padding:.5em;
+}
+
+.main-head h1{
+	font-size: 40px;
+}
+
+.sidelogo{
+	width:100px;
+	height: auto;
+	
+}
+
+div p{
+	line-height: 40px;
+}
+
+.cpr{
+    left:50px;
+	text-align:center;
+}
+		
+a{
+	text-decoration:none;
+}
