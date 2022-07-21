@@ -1,0 +1,84 @@
+section{
+	min-height: 100vh;
+	width: 100%;
+}
+
+
+.logo1 {
+	width: 60px;
+	height: 90px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.sub-head1 {
+	background-color: maroon;
+	height: 100px;
+	padding: .6ex;
+	margin-top: 80px;
+}
+
+.sub-head1-1 {
+	color: white;
+	font-size: 16pt;
+	padding: 1ex;
+
+}
+
+
+.main-head {
+	margin-top: 60px;
+	background-image: url("../images/cover.png");
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+	font-size: 150%;
+	left: 300px;
+	padding: .5em;
+}
+
+.pic01 {
+	margin-left: 250px;
+	margin-right: 175px;
+	margin-bottom: 200px;
+	width: 200px;
+	height: 150px;
+}
+
+.list {
+	font-family: arial;
+	font-size: 18pt;
+	margin-left: 250px;
+	margin-right: 400px;
+	text-align: justfy;
+}
+
+.description {
+	font-family: arial;
+	margin-left: 250px;
+	margin-right: 400px;
+	text-align: justfy;
+	margin-bottom: 10px;
+}
+
+.images{
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.images img{
+	width: 600px;
+	height: 400px;
+}
+
+@media(max-width: 991px){
+	.images{
+		flex-direction: column;
+	}
+}
+
+
