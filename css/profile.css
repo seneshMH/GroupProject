@@ -1,0 +1,52 @@
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(171, 149, 149);
+}
+
+.profile{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.profile h2{
+    margin-bottom: 10px;
+}
+
+.profile label{
+    font-size: 15px;
+}
+
+.profile .data{
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.profile .btn-log{
+   padding: 20px 0 20px 0;
+}
+
+.profile .btn-log a{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background: maroon;
+    color: #fff;
+    transition:all 0.3s ease-in;
+}
+
+.profile .btn-log a:hover{
+    background: rgb(67, 0, 0);
+}
+
