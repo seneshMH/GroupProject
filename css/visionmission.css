@@ -1,0 +1,55 @@
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url(../images/vision-background.jpg);
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.content .vision,.mission{
+    height: 320px;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+}
+
+.content .vision{
+    margin-top: 10px;
+}
+
+.content hr{
+    margin-top: 30px;
+    border: 2px solid rgb(163, 41, 51);
+}
+
+.content h2{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(163, 41, 51);
+}
+
+
+.content p{
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(46, 50, 50);
+    text-align: center;
+}
