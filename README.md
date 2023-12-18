@@ -25,3 +25,7 @@ We would like to thank the following group members for their valuable contributi
 -   MySQL
 -   HTML
 -   CSS
+
+---
+
+![school](/resources/home.png?raw=true "school")
